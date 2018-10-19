@@ -1,7 +1,7 @@
 # 通过ndk-build方式进行NDK开发
 
-##1、配置好NDK开发环境
-##2、创建Java方法
+#1、配置好NDK开发环境
+#2、创建Java方法
 ```Java
     package com.walker.myjnimk;
 
@@ -41,14 +41,14 @@
         private static native void encodeArray(int[] arr);
     }
 ```
-##3、使用javah命令生成对应的头文件
+#3、使用javah命令生成对应的头文件
 ```Java
 E:\code\MyJniMk\app\src\main\java>javah -classpath . -jni com.walker.com.walker.myjnimk.HelloJni
 ```
-##4、在main下创建jni文件夹，将头文件com_walker_myjnimk_HelloJni.h放入jni中，并创建相应的源文件
-##5、在jni中配置Android.mk、Application.mk,在jni目录下执行ndk-build命令，编译so库
+#4、在main下创建jni文件夹，将头文件com_walker_myjnimk_HelloJni.h放入jni中，并创建相应的源文件
+#5、在jni中配置Android.mk、Application.mk,在jni目录下执行ndk-build命令，编译so库
 ```Java
 E:\code\MyJniMk\app\src\main\jni>ndk-build
 ```
-##6、将生成的so库放入jniLibs的对应目录下，加载使用
+#6、将生成的so库放入jniLibs的对应目录下，加载使用
 

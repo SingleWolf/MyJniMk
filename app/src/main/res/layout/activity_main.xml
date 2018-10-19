@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_btn_blue"
+            android:onClick="onHello"
+            android:text="@string/app_main_btn_hello"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_blue_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_btn_blue"
+            android:onClick="onEncode"
+            android:text="@string/app_main_btn_encode"
+            android:textColor="@android:color/holo_blue_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_btn_blue"
+            android:onClick="onDecode"
+            android:text="@string/app_main_btn_decode"
+            android:textColor="@android:color/holo_blue_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_btn_blue"
+            android:onClick="onReference"
+            android:text="@string/app_main_btn_reference"
+            android:textColor="@android:color/holo_blue_light" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

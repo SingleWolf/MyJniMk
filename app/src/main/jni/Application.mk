@@ -1,0 +1,4 @@
+APP_ABI := all
+APP_PLATFORM := android-16
+APP_BUILD_SCRIPT := Android.mk
+APP_ALLOW_MISSING_DEPS=true

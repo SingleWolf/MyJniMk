@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyJniMk</string>
+    <string name="app_main_btn_hello">Hello World</string>
+    <string name="app_main_btn_encode">加    密</string>
+    <string name="app_main_btn_decode">解    密</string>
+    <string name="app_main_btn_reference">引用传递</string>
+</resources>

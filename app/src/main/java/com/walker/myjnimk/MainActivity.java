@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         HelloJni.exeArray();
-
         String value_2="";
         for(int index:array){
             value_2=value_2+index;
@@ -52,4 +51,8 @@ public class MainActivity extends AppCompatActivity {
         ToastUtils.showCenterShort(String.format("%s操作后为：%s",value_1,value_2));
     }
 
+
+    public void onReflect(View v){
+       new HelloJni().onJavaFunc("The command come from Native");
+    }
 }

@@ -4,4 +4,5 @@
     <string name="app_main_btn_encode">加    密</string>
     <string name="app_main_btn_decode">解    密</string>
     <string name="app_main_btn_reference">引用传递</string>
+    <string name="app_main_btn_reflect">反射(C调Java)</string>
 </resources>

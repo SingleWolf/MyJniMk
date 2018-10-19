@@ -11,7 +11,10 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/bg_btn_blue"
             android:onClick="onHello"
             android:text="@string/app_main_btn_hello"
@@ -21,7 +24,10 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/bg_btn_blue"
             android:onClick="onEncode"
             android:text="@string/app_main_btn_encode"
@@ -30,7 +36,10 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/bg_btn_blue"
             android:onClick="onDecode"
             android:text="@string/app_main_btn_decode"
@@ -39,10 +48,25 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/bg_btn_blue"
             android:onClick="onReference"
             android:text="@string/app_main_btn_reference"
+            android:textColor="@android:color/holo_blue_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_btn_blue"
+            android:onClick="onReflect"
+            android:text="@string/app_main_btn_reflect"
             android:textColor="@android:color/holo_blue_light" />
     </LinearLayout>
 

@@ -24,6 +24,8 @@ JNIEXPORT jstring JNICALL Java_com_walker_myjnimk_HelloJni_decode
 JNIEXPORT void JNICALL Java_com_walker_myjnimk_HelloJni_encodeArray
 (JNIEnv *, jclass, jintArray);
 
+JNIEXPORT void JNICALL Java_com_walker_myjnimk_HelloJni_onJavaFunc
+        (JNIEnv *, jobject, jstring);
 #ifdef __cplusplus
 }
 #endif
